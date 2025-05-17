@@ -1,0 +1,10 @@
+
+:root {
+    --color_primary: #030202;
+    --color_secundary: #ffffff;
+    --color_tertiary: #b8860b;
+    --color_quartenary: #1a1a1a;
+
+    --font_primary: "open-sans", sans-serif;
+    --font_secundary: "oswald", sans-serif;
+}
