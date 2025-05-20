@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Barbearia Dom Corte</title>
 </head>
 <body>
     <header class="cabecalho">
-        <div class="logo">
-            <p>DomCorte</p>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Agende Agora</a></li>
-            </ul>
+        <nav class="nav">
+            <div class="logo">
+                <p>DomCorte</p>
+            </div>
+            <button class="menu-toggle">☰</button>
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a  class="button" href="">Agende Agora</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -118,4 +121,6 @@
         &copy; 2025 Barebearia Dom Corte. Todos os direitos reservados.
     </footer>
 </body>
+<script src="/js/menu-toggle.js"></script> 
+
 </html>

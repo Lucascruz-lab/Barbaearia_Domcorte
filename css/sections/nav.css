@@ -1,0 +1,74 @@
+/*desenvolver como mobile first*/
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #000000e6;
+}
+
+.cabecalho .logo {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--oswald);
+    padding: 1em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-toggle {
+    background-color:var(--preto);
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--texto);
+}
+
+.nav_menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+
+.nav_menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 1em;
+    gap: 1em;
+}
+
+.cabecalho ul li a {
+    color: var(--texto);
+    font-size: var(--fonte_texto_menor);
+    text-decoration: none;
+    transition: color o.3s ease-in;
+}
+
+.cabecalho ul li a:hover {
+    color: var(--dourado);
+}
+
+.nav_menu.menu-ativo {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.button {
+    background-color: var(--dourado);
+    padding: 0.5em;
+    border: 1px solid var(--texto);
+    border-radius: 30px;
+    transition: color 0.3s ease-in;
+}
+
+.button:hover {
+    background-color: var(--texto);
+    color: var(--dourado);
+}

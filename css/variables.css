@@ -1,0 +1,21 @@
+
+:root {
+    --fundo: #030202;
+    --texto: #ffffff;
+    --dourado: #b8860b;
+    --cinza: #1a1a1a;
+
+    --open_sans: "open-sans", sans-serif;
+    --oswald: "oswald", sans-serif;
+
+    --fonte_base: 16px;
+    --fonte_titulo: 2.5rem;
+    --fonte_subtitulo: 1.5rem;
+    --fonte_texto: 1rem;
+    --fonte_texto_menor: 0.875rem;
+    --fonte_texto_maior: 1.125rem;
+
+    --espacamento_pequeno: 0.5rem;
+    --espacamento_medio: 1rem;
+    --espacamento_grande: 2rem;
+}
