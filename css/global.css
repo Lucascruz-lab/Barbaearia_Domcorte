@@ -2,7 +2,7 @@
 body {
     font-family: var(--open_sans);
     color: var(--texto);
-    background-color: var(--preto);
+    background-color: var(--fundo);
     line-height: 1.6;
 }
 
