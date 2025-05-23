@@ -5,11 +5,25 @@
   }
 
   .hero_titulo {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 700;
   }
 
   .hero_conteudo {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  .sobre {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .sobre img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 0;
   }
 
   .cards_servicos {
@@ -18,17 +32,26 @@
     justify-content: center;
     gap: 2rem;
     width: 90%;
+    margin: 0 auto;
   }
 
   .card {
     width: 45%;
     height: auto;
+    text-align: center;
+  }
+
+  .img_card,
+  .img_img {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
   }
 
   .nav_menu {
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0;
     background-color: transparent;
     position: static;
     height: auto;
@@ -42,6 +65,23 @@
 
   .menu-toggle {
     display: none;
+  }
+
+  .foto img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 4rem;
+  }
+
+  .menu {
+    flex-direction: row;
+    gap: 1.5rem;
   }
 }
 
@@ -54,23 +94,58 @@
   }
 
   .hero_titulo {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .hero_conteudo {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+  }
+
+  .sobre {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .sobre_titulo, .servicos_titulo, .galeria_titulo, .contato_titulo {
+    font-size: 2.5rem;
+  }
+
+  .sobre_container {
+    padding: 5rem;
+  }
+
+  .sobre_conteudo {
+    padding-right: 7rem;
+  }
+
+  .sobre img {
+    width: 450px;
+    height: auto;
   }
 
   .cards_servicos {
-    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
     width: 80%;
+    margin: 0 auto;
   }
 
   .card {
     width: 300px;
-    height: 350px;
+    height: auto;
+    text-align: center;
+  }
+
+  .img_card,
+  .img_img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
   }
 
   .nav_menu {
@@ -91,14 +166,54 @@
     display: none;
   }
 
+  .foto {
+    width: 100%;
+    height: auto;
+  }
+
+  .foto_img {
+    width: 100%;
+    height: auto;
+    display: block  ;
+  }
+
   footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem 6rem;
+    align-items: center;
   }
 
   .menu {
     flex-direction: row;
     gap: 2rem;
   }
+
+  .fotos_galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 colunas */
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px; /* controla a largura máxima */
+    margin: 0 auto; /* centraliza horizontalmente */
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+
+  .fotos_galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* se quiser que preencha bem o espaço */
+  }
+
+  .contato_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+
+
 }

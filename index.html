@@ -15,18 +15,18 @@
             <button class="menu-toggle">☰</button>
             <div class="nav_menu">
                 <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Galeria</a></li>
-                    <li><a  class="button" href="">Agende Agora</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="servicos">Serviços</a></li>
+                    <li><a href="galeria">Galeria</a></li>
+                    <li><a  class="button" href="contato">Agende Agora</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="inicio">
             <div class="hero_container">
                 <h1 class="hero_titulo">A tradição do bom corte com o toque moderno.</h1>
                 <p class="hero_conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus ab cum amet exercitationem explicabo, esse autem. Maiores porro iste atque eaque aspernatur, quod ad mollitia ab ipsa optio delectus?</p>
@@ -34,7 +34,7 @@
             </div>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="sobre_container">
                 <h2 class="sobre_titulo">Quem somos</h2>
                 <p class="sobre_conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed velit minus voluptas laboriosam cumque, nobis commodi adipisci sapiente accusamus ipsum, aperiam quis eos omnis esse iste! Ut eum nihil voluptas.</p>
@@ -42,22 +42,22 @@
             <img src="/assets/images/image 2-1.png" alt="foto de uma cadeira de barbeiro">
         </section>
 
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <h2 class="servicos_titulo">Nossos Serviços</h2>
                 
             <div class="cards_servicos">
                 <div class="card">
-                    <img src="./" alt="">
+                    <img class="img_card" src="./assets/images/components/navalha.png" alt="">
                     <h4 class="card_titulo">Detalhamento na navalha</h4>
                     <p class="card_conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
+                    <img class="img_card" src="./assets/images/components/barba.png" alt="">
                     <h4 class="card_titulo">Design de Barba</h4>
                     <p class="card_conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
+                    <img class="img_img" src="./assets/images/components/tesoura.png" alt="">
                     <h4 class="card_titulo">Corte Personalizado</h4>
                     <p class="card_conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
@@ -70,28 +70,28 @@
             </div>
         </section>
 
-        <section class="galeria">
+        <section class="galeria" id="galeria">
             <h2 class="galeria_titulo">Nosso Espaço</h2>
             <p class="galeria_subtitulo">Ambiente pensado para seu conforto, estilo e cuidado pessoal.</p>
 
             <div class="fotos_galeria">
                 <div class="foto">
-                    <img src="/assets/images/image 4.png" alt="">
+                    <img class="foto_img" src="/assets/images/image 4.png" alt="">
                 </div>
                 <div class="foto">
-                    <img src="/assets/images/image.png" alt="">
+                    <img class="foto_img"  src="/assets/images/image.png" alt="">
                 </div>
                 <div class="foto">
-                    <img src="/assets/images/image 6.png" alt="">
+                    <img class="foto_img"  src="/assets/images/image 6.png" alt="">
                 </div>
                 <div class="foto">
-                    <img src="/assets/images/image 5.png" alt="">
+                    <img class="foto_img"  src="/assets/images/image 5.png" alt="">
                 </div>
                 
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <h2 class="contato_titulo">Entre em Contato</h2>
             <p class="contato_subtitulo">Agende um horário, tire dúvidas ou venha nos visitar.</p>
 
@@ -102,9 +102,6 @@
                     <li>Horário de funcionamento: Segunda a Sábado – 09h às 19h</li>
                 </ul>
             </div>
-            <div class="foto_contato">
-                <img src="" alt="">
-            </div>
         </section>
     </main>
 
@@ -113,14 +110,14 @@
             <h3 class="logo">DomCorte</h3>
         </div>
         <ul class="menu">
-            <li>Início</li>
-            <li>Serviços</li>
-            <li>Sobre</li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="servicos">Serviços</a></li>
         </ul>
         <div class="redes_sociais">
             <ul>
-                <li><ion-icon name="logo-instagram"></ion-icon></li>
-                <li><ion-icon name="logo-whatsapp"></ion-icon></li>
+                <li><a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://www.wa.me/SEUNUMERO/"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
             </ul>
         </div>
         &copy; 2025 Barebearia Dom Corte. Todos os direitos reservados.
