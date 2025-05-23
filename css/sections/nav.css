@@ -1,38 +1,42 @@
 /*desenvolver como mobile first*/
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5em;
-    background-color: #000000e6;
+    background-color: var(--fundo);
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
 }
 
-.cabecalho .logo {
+.logo {
     font-size: 2rem;
     font-weight: 800;
     font-family: var(--oswald);
+    color: var(--texto);
     padding: 1em;
 }
 
 .nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .menu-toggle {
-    background-color:var(--preto);
+    background-color: var(--fundo);
     border: none;
     font-size: 1.8rem;
     cursor: pointer;
     color: var(--texto);
+    z-index: 20;
 }
 
 .nav_menu {
     display: none;
     width: 100%;
     flex-direction: column;
-    margin-top: 1em;
+    background-color: var(--fundo);
+    padding: 2rem 1rem;
 }
 
 
@@ -40,15 +44,16 @@
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding: 1em;
-    gap: 1em;
+    gap: 2rem;
+    text-align: center;
 }
 
 .cabecalho ul li a {
     color: var(--texto);
     font-size: var(--fonte_texto_menor);
     text-decoration: none;
-    transition: color o.3s ease-in;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in;
 }
 
 .cabecalho ul li a:hover {
@@ -58,11 +63,22 @@
 .nav_menu.menu-ativo {
     display: flex !important;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fundo);
+    z-index: 15;
+    overflow-y: auto;
 }
 
 .button {
     background-color: var(--dourado);
-    padding: 0.5em;
+    padding: 0.5em 1em;
     border: 1px solid var(--texto);
     border-radius: 30px;
     transition: color 0.3s ease-in;

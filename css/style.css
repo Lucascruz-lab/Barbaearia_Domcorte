@@ -3,8 +3,10 @@
 @import url(/css/sections/hero.css);
 @import url(/css//sections/sobre.css);
 @import url(/css//sections/servicos.css);
-@import url(/css//sections/footer.css);
+@import url(/css/sections/galeria.css);
 @import url(/css//sections/contato.css);
+@import url(/css//sections/footer.css);
+@import url(/css/sections/responsividade.css);
 @import url(/css//sections/font.css);
 @import url(/css/reset.css);
 @import url(/css/global.css);

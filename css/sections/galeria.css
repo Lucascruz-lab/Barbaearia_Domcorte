@@ -1,0 +1,39 @@
+
+.galeria {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.galeria_titulo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: var(--oswald);
+    color: var(--texto);
+    margin-bottom: var(--espacamento_medio);
+}
+
+.galeria_subtitulo {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza_claro);
+    margin-bottom: var(--espacamento_grande);
+}
+
+.fotos_galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
