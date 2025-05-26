@@ -72,6 +72,16 @@
     height: auto;
   }
 
+  .fotos_galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+
   footer {
     flex-direction: row;
     justify-content: space-between;
